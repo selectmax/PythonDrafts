@@ -1,0 +1,13 @@
+def add_five(x):
+    return x+5
+
+
+nums = [11, 22, 33, 44, 55]
+result = map(add_five, nums)
+result_list = list(result)
+
+print(type(result))
+print(result)
+
+print(type(result_list))
+print(result_list)
